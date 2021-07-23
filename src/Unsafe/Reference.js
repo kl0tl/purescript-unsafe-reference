@@ -1,6 +1,4 @@
-"use strict";
-
-exports.reallyUnsafeRefEq = function (a) {
+export var reallyUnsafeRefEq = function (a) {
   return function (b) {
     return a === b;
   };
